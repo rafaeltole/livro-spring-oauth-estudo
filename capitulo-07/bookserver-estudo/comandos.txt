@@ -1,0 +1,13 @@
+# HTTP Basic Authentication
+curl --user rafaeltole@yahoo.com.br:123456 "http://localhost:8080/api/v2/livros"
+  
+# Obter token de acesso
+curl -X POST \
+-H "Authorization: Basic Y2xpZW50ZS1hcHA6MTIzNDU2" \
+-H "Content-Type: application/x-www-form-urlencoded" \
+-H "Accept: application/json" \
+-d 'grant_type=password&username=rafaeltole@yahoo.com.br&password=12345&scope=read write' "http://localhost:8080/oauth/token"
+
+# Acesso ao endpoint
+curl -X GET -H "Authorization: Bearer 494618f9-2f0d-4648-9cb5-4ffdb43d2f91" "http://localhost:8080/api/v2/livros"
+
