@@ -1,0 +1,2 @@
+ # HTTP Basic Authentication
+ curl --user rafaeltole@yahoo.com.br:123456 "http://localhost:8080/api/v2/livros"
