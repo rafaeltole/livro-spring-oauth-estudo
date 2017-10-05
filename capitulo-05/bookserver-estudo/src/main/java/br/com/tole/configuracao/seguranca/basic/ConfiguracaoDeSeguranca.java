@@ -23,7 +23,7 @@ public class ConfiguracaoDeSeguranca {
                 .csrf().disable();
             // @formatter:on
         }
-        https://blog.magnetis.com.br/investir-em-lci/
+
     }
 
     @Configuration
