@@ -11,3 +11,10 @@ curl -X POST \
 # Acesso ao endpoint
 curl -X GET -H "Authorization: Bearer 494618f9-2f0d-4648-9cb5-4ffdb43d2f91" "http://localhost:8080/api/v2/livros"
 
+
+
+
+
+
+
+
